@@ -22,4 +22,4 @@ for i in your_list:
             j += 1
 
 print("Maximally Specific set")
-print(h)
+print(h)  
