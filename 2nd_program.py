@@ -40,4 +40,4 @@ def train(concepts, target):
 s_final, g_final = train(concepts, target)
 
 print("\nFinal Specific Hypothesis:", s_final)
-print("\nFinal General Hypothesis:", g_final)
+print("\nFinal General Hypothesis:", g_final)   
