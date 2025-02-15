@@ -7,7 +7,7 @@ concepts = np.array(data.iloc[:, :-1])
 print("\nInstances are \n", concepts)
 target = np.array(data.iloc[:, -1])
 print("\nTarget values are:", target)
-
+                                         
 def train(concepts, target):
     specific_h = concepts[0].copy()
     print("\nInitialize specific hypothesis:", specific_h)
