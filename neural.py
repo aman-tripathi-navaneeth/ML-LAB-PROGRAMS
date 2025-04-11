@@ -72,3 +72,11 @@ for i in range(len(inputs)):
     target = targets[i]
     prediction = nn.predict(input_data)
     print(f"Input: {input_data[0]}, Target: {target[0]}, Prediction: {prediction[0][0]:.4f}")
+
+
+# output 
+
+# Input: [0 0], Target: 0, Prediction: 0.0435
+# Input: [0 1], Target: 1, Prediction: 0.9566
+# Input: [1 0], Target: 1, Prediction: 0.9591
+# Input: [1 1], Target: 0, Prediction: 0.0382
